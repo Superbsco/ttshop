@@ -1,0 +1,210 @@
+/*通用样式*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: #333;
+    font: 12px/1.5 微软雅黑, arial, tahoma, 宋体;
+}
+em,i{
+    font-style: normal;
+}
+img{
+    border: none;
+}
+#charact img:hover,#financial img:hover,.floor img:hover{
+    opacity: 0.8;
+}
+a {
+    text-decoration: none;
+    color: #666;
+}
+a:hover {
+    color: #F60;
+    text-decoration: underline;
+}
+ul {
+    list-style: none;
+}
+@font-face {
+    font-family: 'ng-iconfont';
+    src: url('../font/iconfont.eot');
+    src: url('../font/iconfont.eot#iefix') format('embedded-opentype'),
+    url('../font/iconfont.woff') format('woff'),
+    url('../font/iconfont.ttf') format('truetype'),
+    url('../font/iconfont.svg#uxiconfont') format('svg');
+}
+.ng-iconfont{
+    font-family: "ng-iconfont" !important;
+    font-style: normal;
+}
+.mb{
+    line-height: 30px;
+    font-size: 17px;
+}
+.search-icon{
+    color: #ccc;
+    display: block;
+    font-size: 18px;
+    height: 34px;
+    left: 0;
+    line-height: 34px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 34px;
+    background: #fff;
+}
+
+/*顶部logo*/
+#layout_logo{
+    width: 1190px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+#layout_logo .logo{
+    float: left;
+    width: 470px;
+    position: relative;
+    top:30px;
+    display: block;
+    height: 90px;
+    overflow: hidden;
+    background: url(../img/logo_01.png) no-repeat;
+}
+/*登陆bg*/
+#layout_content{
+    width: 100%;
+    height: 475px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #020202;
+}
+#layout_content .login_bg{
+    position: relative;
+    width: 1290px;
+    display: block;
+    height: 475px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: url(../img/login/login_bg.jpg) 0px 0px no-repeat;
+}
+/*登陆*/
+.show-case{
+    left: 850px;
+    top: 65px;
+    overflow: hidden;
+    position: absolute;
+    width: 390px;
+}
+.show-case .box-all{
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.show-case .title {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #eee;
+    font: 14px/40px "microsoft yahei";
+    height: 40px;
+    overflow: hidden;
+    padding-left: 14px;
+    position: relative;
+}
+.show-case .login{
+    width: 100%;
+    margin: 0 auto;
+    height: 305px;
+    font: 14px/40px "microsoft yahei";
+    background: #fff none repeat scroll 0 0;
+}
+.show-case .login .itxt {
+    margin-top: 40px;
+    margin-left: 45px;
+    line-height: 18px;
+    padding: 10px 0 10px 50px;
+    float: none;
+    overflow: hidden;
+    border: 1px solid #bdbdbd;
+    height: 38px;
+    width: 304px;
+    font-size: 14px;
+}
+.show-case .login .username .login-label {
+    position: absolute;
+    visibility: visible;
+    /*background-color: #c9baf0;*/
+    z-index: 998;
+    top: 81px;
+    left: 45px;
+    width: 38px;
+    height: 37px;
+    border-right: 1px solid #bdbdbd;
+    border-left: 1px solid #bdbdbd;
+    background: url(../img/login/pwd-icons-new.png) no-repeat;
+}
+.show-case .login .pas .pwd-label {
+    position: absolute;
+    z-index: 998;
+    top: 159px;
+    left: 45px;
+    width: 38px;
+    height: 36px;
+    border-right: 1px solid #bdbdbd;
+    border-left: 1px solid #bdbdbd;
+    border-top: 1px solid #bdbdbd;;
+    background: url(../img/login/pwd-icons-new.png) scroll -48px 0px;
+}
+.show-case .login .login-btn{
+    border: 1px solid #e85356;
+    display: block;
+    width: 302px;
+    text-align: center;
+    position: relative;
+    margin-top: 60px;
+    margin-left: 45px;
+    background: #e4393c;
+    height: 31px;
+    line-height: 31px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.show-case .login .login-btn a{
+    color: #fff;
+}
+/*合作伙伴*/
+#layout_partner{
+    width: 100%;
+    height: 130px;
+}
+#partner{
+    width: 1190px;
+    margin: 0 auto;
+}
+.foot_list{
+    width: 1190px;
+    margin: 0 auto;
+    height: 120px;
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+.ng-url-list {
+    height: 25px;
+    line-height: 25px;
+}
+
+.ng-url-list span {
+    color: #888;
+    padding: 0 8px;
+}
+.ng-copyright {
+    color: #999;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    margin-top: 5px;
+}
